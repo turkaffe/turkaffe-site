@@ -36,6 +36,17 @@ ol, ul {
 	list-style: none;
 }
 
+ol{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.directions {
+	text-align: justify;
+
+
+}
+
 blockquote, q {
 	quotes: none;
 }

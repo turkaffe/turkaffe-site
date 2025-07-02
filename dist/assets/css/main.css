@@ -35,16 +35,17 @@ body {
 ol, ul {
 	list-style: none;
 }
-
-ol{
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
 .directions {
 	text-align: justify;
+}
 
+#container {
+	width: 500px;
+	height: 250px;
+}
 
+#container img {
+	width: 100%;
 }
 
 blockquote, q {
@@ -2290,7 +2291,6 @@ input, select, textarea {
 		.image img {
 			border-radius: 6px;
 			display: block;
-			max-width: 100%;
 		}
 
 		.image.left, .image.right {

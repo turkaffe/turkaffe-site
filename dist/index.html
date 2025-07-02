@@ -1,9 +1,19 @@
+<script>
+	(function() {
+
+		var img = document.getElementById('container').firstChild;
+		img.onload = function() {
+			if (img.height > img.width) {
+				img.height = 'auto';
+				img.width = '100%';
+			}
+		};
+
+	}());
+</script>
+
+
 <!DOCTYPE HTML>
-<!--
-	Fractal by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
--->
 <html xmlns="http://www.w3.org/1999/html">
 	<head>
 		<title>turkaffe | bts & sql</title>
@@ -16,13 +26,13 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="content">
-					<img style='height: 100%; width: 100%; object-fit: contain' src="images/title.png" alt=""/>
+					<div id="container">
+						<img src="images/title.png" alt="Run Seokjin tour logo"/>
+					</div>
 					<p>August 30-31 2025</p>
 					<p><strong>I hope you have a great concert!</strong></p>
-
 					<p><b>Here are the directions for the vinyl decals:</b></p>
-
-					<div class="directions">
+					<div>
 					<ol class="directions">
 						<li>Make sure the project surface is clean and dry.</li>
 						<li>Peel the vinyl liner (white) away from the transfer tape and design. </li>
@@ -41,7 +51,6 @@
 				</div>
 			</header>
 
-
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -49,6 +58,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>

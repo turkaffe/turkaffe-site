@@ -4148,3 +4148,124 @@ input, select, textarea {
 		}
 
 	}
+
+
+* ==============================================
+   turkaffe — BTS ARIRANG World Tour 2026
+   Color palette:
+     Arirang red:    #A32D2D  (hero bg, section labels)
+     Deep purple:    #3C3489  (purple bar, step numbers, tags)
+     Mid purple:     #534AB7  (icons, links, accents)
+     Light purple:   #EEEDFE  (mission box bg)
+     Purple border:  #AFA9EC
+     Purple text lt: #CECBF6
+     Off-white bg:   #f5f4f0  (card bg, footer)
+   ============================================== */
+
+	/* Page shell — centers content, caps at mobile width */
+	.mock-wrap {
+		max-width: 480px;
+		width: 100%;
+		margin: 0 auto;
+		background: #ffffff;
+	}
+
+	/* ── Purple bar ── */
+	.purple-bar {
+		background: #3C3489;
+		padding: 0.7rem 1.5rem;
+		text-align: center;
+		font-size: 13px;
+		color: #CECBF6;
+		letter-spacing: 0.08em;
+	}
+
+	/* ── Content sections ── */
+	.section {
+		padding: 1.75rem 1.5rem;
+		border-bottom: 0.5px solid #e5e3dc;
+	}
+
+	.section:last-of-type {
+		border-bottom: none;
+	}
+
+	.section-label {
+		font-size: 11px;
+		letter-spacing: 0.18em;
+		color: #A32D2D;
+		text-transform: uppercase;
+		font-weight: 600;
+		margin-bottom: 0.85rem;
+	}
+
+	/* ── Vinyl steps ── */
+	.steps-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.steps-list li {
+		display: flex;
+		gap: 12px;
+		padding: 11px 0;
+		border-bottom: 0.5px solid #e5e3dc;
+		font-size: 15px;
+		color: #1a1a1a;
+		line-height: 1.6;
+	}
+
+	.steps-list li:last-child {
+		border-bottom: none;
+	}
+
+	.step-num {
+		width: 26px;
+		height: 26px;
+		flex-shrink: 0;
+		border-radius: 50%;
+		background: #3C3489;
+		color: #CECBF6;
+		font-size: 11px;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin-top: 2px;
+	}	
+
+	/* ── Page footer ── */
+	.page-footer {
+		padding: 2rem 1.5rem;
+		text-align: center;
+		background: #f5f4f0;
+	}
+
+	.page-footer-icon {
+		font-size: 22px;
+		color: #534AB7;
+		margin-bottom: 8px;
+	}
+
+	.page-footer-made {
+		font-size: 13px;
+		color: #6b6961;
+		margin-bottom: 12px;
+	}
+
+	.page-footer-insta {
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		font-size: 14px;
+		color: #534AB7;
+		text-decoration: none;
+		border-bottom: none;
+	}
+
+	.page-footer-insta:hover {
+		text-decoration: underline;
+		color: #534AB7;
+		border-bottom-color: transparent;
+	}

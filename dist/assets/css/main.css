@@ -4423,16 +4423,3 @@ body.is-preload #header .image img {
 	justify-content: center;
 	margin-top: 2px;
 }
-
-/* ── Page footer ── */
-.page-footer {
-	padding: 2rem 1.5rem;
-	text-align: center;
-	background: #f5f4f0;
-}
-
-.page-footer-icon {
-	font-size: 22px;
-	color: #534AB7;
-	margin-bottom: 8px;
-}
